@@ -1,0 +1,61 @@
+#wrapper { 
+width: 100%;
+height: auto; 
+margin: 0 auto;
+display: -moz-inline-stack;
+display: inline-block;
+box-sizing: border-box;
+vertical-align: middle;
+}
+body {
+padding: 0; 
+}
+.trailers {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    padding-bottom: 2%;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+h5 {
+    position: relative;
+    padding-bottom: 2%;
+}
+#oddNumberedSeriesHeaders {
+    left: 26%;
+    float: left;
+    margin: 0%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 26%;
+    margin: 0%;
+}
+#evenNumberedSeriesHeaders {
+    left: 66.5%;
+}
+.oddNumberedTrailers {
+    left: 7.5%;
+    float: left;
+}
+.oddNumberedTrailersLastOne {
+    left: 7.5%;
+}
+.evenNumberedTrailers {
+    left: 12.5%;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+#warningImage {
+position: relative;
+left: 17%;
+}
+
+
+

@@ -1,0 +1,129 @@
+@media only screen and (orientation: landscape) and (max-width: 1680px) {
+#warningImage {
+width: 66%;
+}
+#tabs {
+    font-size: 100%;
+}
+#linkInfo {
+    left: 16%;
+}
+#return {
+    left: 21.7%;
+}
+}
+@media only screen and (max-width: 1600px) {
+table {
+    font-size: 100%;
+}
+#linkInfo {
+    left: 14.5%;
+}
+#oddNumberedSeriesHeaders {
+    left: 25.8%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 25.8%;
+}
+
+}
+@media only screen and (max-width: 1440px) {
+#tabs {
+    font-size: 90%;
+}
+#linkInfo {
+    left: 10%;
+    width: 80%;
+}
+#oddNumberedSeriesHeaders {
+    left: 25.6%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 25.6%;
+}
+#evenNumberedSeriesHeaders {
+    left: 65.8%;
+}
+}
+@media only screen and (max-width: 1366px) {
+#tabs {
+    top: 50%;
+}
+#linkInfo {
+    left: 12%;
+}
+#evenNumberedSeriesHeaders {
+    left: 66%;
+}
+}
+@media only screen and (max-width: 1280px) {
+#tabs {
+    top: 46%;
+    font-size: 85%;
+}
+#linkInfo {
+    left: 10%;
+}
+#evenNumberedSeriesHeaders {
+    left: 65.7%;
+}
+}
+@media only screen and (max-width: 1152px) {
+#tabs {
+    top: 38%;
+    font-size: 75%;
+}
+#oddNumberedSeriesHeaders {
+    left: 25.1%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 25.1%;
+}
+#evenNumberedSeriesHeaders {
+    left: 64.8%;
+}
+}
+@media only screen and (max-width: 1024px) {
+#tabs {
+    top: 41%;
+    font-size: 65%;
+}
+#oddNumberedSeriesHeaders {
+    left: 25.3%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 25.3%;
+}
+#evenNumberedSeriesHeaders {
+    left: 65%;
+}
+#linkInfo {
+    left: 8%;
+    width: 84%;
+}
+}
+@media only screen and (max-width: 900px) {
+#tabs {
+    top: 50%;
+}
+#linkInfo {
+    font-size: 90%;
+    left: 7.5%;
+    width: 85%;
+}
+#evenNumberedSeriesHeaders {
+    left: 64.3%;
+}
+}
+@media only screen and (max-width: 800px) {
+h1 {
+font-size: 140%;        
+}
+#tabs {
+    top: 45%;
+    font-size: 52%;
+}
+table {
+    font-size: 90%;
+}
+}

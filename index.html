@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TV Series</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/themes/dot-luv/jquery-ui.css" />
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="seriesTabs.css">
+        <link rel="stylesheet" href="seriesTabsMediaQueries.css">
+        <link rel="stylesheet" href="seriesTabsMediaQueriesVertical.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="container">
+                <div id="header">
+                    <h1 id="whereUsersReturnToo">Please select the following tab to find out about your selected TV Series</h1>
+                    <div class="warning">
+                        <img id="warningImage" src="warning.jpg" alt="Warning Sign">
+                    </div>                
+                </div>
+                <div id="seriesTabs">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tab1">Tab Menu</a></li>
+                            <li><a href="#tab2">Breaking Bad</a></li>
+                            <li><a href="#tab3">Life in Pieces</a></li>
+                            <li><a href="#tab4">Lucifer</a></li>
+                            <li><a href="#tab5">Luther</a></li>
+                            <li><a href="#tab6">No Offence</a></li>
+                            <li><a href="#tab7">Rush Hour</a></li>
+                            <li><a href="#tab8">Shameless</a></li>
+                            <li><a href="#tab9">Suits</a></li>
+                            <li><a href="#tab10">The Fall</a></li>
+                            <li><a href="#tab11">This is Us</a></li> 
+                        </ul>
+                        <div id="tab1">
+                            <p>A wide variety of TV shows I have been watching over the last couple of years and a couple of classic shows that I could not leave out.
+                               Enjoy browsing through and hopefully if you were unsure of watching this show before, hopefully this will be enough for you to give them a try.
+                            </p>
+                            <p>Please select each tab to find out about your chosen show.</p>
+                            <p>Please note that the information given on each show is on the episodes to date. Please keep referring back to this site as further information will 
+                               be published when further series are released</p>
+                            <p>This site is still under construction, further series will be added in due course and further adjustmusts will be made to the code</p>
+                        </div>
+                        <div id="tab2">
+                            <h1>Breaking Bad</h1>
+                            <div id="breakingBadImageAndTable">
+                                <img class="seriesImage" src="breakingBad.jpg" alt="Breaking Bad">
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2008</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">62</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Action, Drama, Thriller</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>When a mild mannered Chemistry Teacher named Walter White is diagnosed with terminal lung cancer and told he only has two years to live. He is worried about how his family will cope
+                                financially but then is amazed to find out how much money a couple of meth dealers have made when they have been caught. Then when a former student of his (Jesse Pinkman) is almost
+                                arrested for drug dealing, Walter forms a partnership with Jesse where they cook and deal crystal meth but in a cautious manor which proves far easier said than done. Jesse not only
+                                deals drugs but he takes them as well, Walter has to battle his deteriorating health, try and keep his job going and hide any evidence of his drug producing from his family. He will never
+                                be far away from the investigation with his brother-in-law Hank being an agent for the Drugs Enforcement Agency.</p>
+                                <p>To help keep their operation a secret Walter hires a shady lawyer named Saul who uses his agent Mike to help clean up whenever Walter and Jesse run into trouble and in exchange Saul
+                                takes a percentage of their intake. He also helps them form a partnership with the owner of a chicken shop. The chicken shop turns out to be the front of the biggest meth lab in the area
+                                run by a man named Gus Fring. Fring is very cautious over who he does business with although is involved in a drug war with the Cartel.</p>
+                                <p>All the money Walter has made has made his wife Skyler suspicious and eventually she figures out what he has been doing which adds to Walter's problems. He makes her promise not to tell 
+                                Hank and Skyler ends up helping Walter cover his tracks by buying a car wash. Hoping to launder the drug money in their new business. However as time progresses Hank and his DEA collegues
+                                manage to figure out the truth but Walter has become so powerful will there be anything Hank can do about it.</p>
+                            </div>
+                            <hr class="whiteLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Walter White</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0186505/?ref_=tt_cl_t1" target="_blank">Bryan Cranston</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jesse Pinkman</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0666739/?ref_=tt_cl_t3" target="_blank">Aaron Paul</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Skyler White</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0348152/?ref_=tt_cl_t2" target="_blank">Anna Gunn</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Hank Schrader</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0606487/?ref_=tt_cl_t4" target="_blank">Dean Norris</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Marie Schrader</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1336827/?ref_=tt_cl_t5" target="_blank">Betsy Brandt</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Walter White Jr</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2666409/?ref_=tt_cl_t6" target="_blank">RJ Mitte</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Saul Goodman</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0644022/?ref_=tt_cl_t7" target="_blank">Bob Odenkirk</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Steven Gomez</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2366374/?ref_=tt_cl_t8" target="_blank">Steven Michael Quezada</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mike Ehrmantraut</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0052186/?ref_=tt_cl_t9" target="_blank">Jonathan Banks</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Gus Fring</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0002064/?ref_=tt_cl_t10" target="_blank">Giancarlo Esposito</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Skinny Pete</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1889973/?ref_=ttfc_fc_cl_t11" target="_blank">Charles Baker</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Todd</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0687146/?ref_=ttfc_fc_cl_t12" target="_blank">Jesse Plemons</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ted Beneke</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0184086/?ref_=ttfc_fc_cl_t13" target="_blank">Christopher Cousins</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Laura Fraser</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0292182/?ref_=ttfc_fc_cl_t14" target="_blank">Lydia Rodarte-Quayle</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Badger</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2804503/?ref_=ttfc_fc_cl_t15" target="_blank">Matt Jones</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">ASAC George Merkert</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0928795/?ref_=ttfc_fc_cl_t16" target="_blank">Michael Shamus Wiles</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="whiteLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return whiteBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab3">
+                            <h1>Life in Pieces</h1>
+                            <div id="lifeInPiecesImageAndTable">
+                                <img class="seriesImage" src="lifeInPieces.jpg" alt="Life in Pieces">
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">66</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Comedy</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>A crazy tale of an extended family. John and Joan are the grandparents, they have reached retirement age and they have three children, Heather,
+                                Matt and Greg.</p>
+                                <p>Heather the eldest is married to Tim and they have three children, Tyler, Samantha and Sophia. Tyler marries his girlfriend Clementine, Samantha
+                                is going through her early teens and Sophia is under 10. Matt the middle child is divorced and is living back with his parents. He has also had to
+                                quit his job as he has started going out with his boss Colleen. The two do eventually get married and do hope to start a family. Greg the youngest is
+                                married to Jen and the two have just had their first child Lark.</p>
+                            </div>
+                            <hr class="whiteLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">John Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0000981/?ref_=tt_cl_t6" target="_blank">James Brolin</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Joan Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0001848/?ref_=tt_cl_t7" target="_blank">Dianne West</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Heather Hughes</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1336827/?ref_=tt_cl_t2" target="_blank">Betsy Brandt</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tim Hughes</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2045884/?ref_=tt_cl_t4" target="_blank">Dan Bakkedahl</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Matt Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0755603/?ref_=tt_cl_t3" target="_blank">Thomas Sadoski</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Colleen</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2512132/?ref_=ttfc_fc_cl_t5" target="_blank">Angelique Cabral</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Greg Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0004988/?ref_=ttfc_fc_cl_t1" target="_blank">Colin Hanks</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jen Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1830380/?ref_=ttfc_fc_cl_t8" target="_blank">Zoe Lister-Jones</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tyler Hughes</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm7250301/?ref_=ttfc_fc_cl_t9" target="_blank">Niall Cunningham</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Clementine</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1051295/?ref_=ttfc_fc_cl_t12" target="_blank">Hunter King</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Samantha Hughes</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm5075265/?ref_=ttfc_fc_cl_t10" target="_blank">Holly J. Barrett</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Sophia Hughes</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm5338034/?ref_=ttfc_fc_cl_t11" target="_blank">Giselle Eisenberg</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Lark Short</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm6877106/?ref_=ttfc_fc_cl_t13" target="_blank">Ana Sophia Hedger</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="whiteLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return whiteBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab4">
+                            <h1>Lucifer</h1>
+                            <div id="luciferImageAndTable">
+                                <img class="seriesImage" src="lucifer.jpg" alt="Lucifer">
+                                <table class="blackBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">57</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Comedy, Crime, Drama</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>Bored of being the lord of Hell, the devil decides to retire and move to Los Angeles. Going by the name of Lucifer Morningstar, he becomes the owner of
+                                a night club but becomes very intrigued with detective Chloe Decker from the LAPD after he is unable to use his develish powers to get her to tell him her 
+                                desires. After being a witness to a murder, Lucifer's desire to punish the guilty results in him ending up working for the LAPD and being partnered up.</p>
+                                <p>Despite telling people he is the devil nobody believes Lucifer's claims not even Chloe but she for a time did become suspicious of him. The two however become
+                                a great team and are very successful of catching the bad guys. Lucifer however has to deal with family matters as well with his brother Amenadiel stopping at
+                                nothing to get him to return to home. His mum escaping from Hell and interfering with his life. Not only that but a new lieutenant joining the LAPD but there
+                                may be more to him than it seems and that all happens at a time Lucifer finds himself being kidnapped, left in the desert and finds some of his devil powers have
+                                gone. </p>
+                            </div>
+                            <hr class="blackLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="blackBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Lucifer Morningstar</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0255124/?ref_=ttfc_fc_cl_t1" target="_blank">Tom Ellis</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Detective Chloe Decker</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0314514/?ref_=ttfc_fc_cl_t2" target="_blank">Lauren German</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mazikeen</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2788229/?ref_=ttfc_fc_cl_t5" target="_blank">Lesley-Ann Brandt</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Amenadiel</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0940851/?ref_=ttfc_fc_cl_t13" target="_blank">D.B Woodside</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Detective Dan Espinoza</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1204760/?ref_=ttfc_fc_cl_t3" target="_blank">Kevin Alejandro</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Dr Linda Martin</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0006713/?ref_=ttfc_fc_cl_t10" target="_blank">Rachel Harris</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Trixie Espinoza</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm5411494/?ref_=ttfc_fc_cl_t6" target="_blank">Scarlett Estivez</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ella Lopez</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0305083/?ref_=ttfc_fc_cl_t9" target="_blank">Aimee Garcia</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Charlotte Richards</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1065454/?ref_=ttfc_fc_cl_t8" target="_blank">Tricia Helfer</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Lieutenant Marcus Pierce</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0919991/?ref_=ttfc_fc_cl_t10" target="_blank">Tom Welling</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Detective Malcolm Rankin</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0710271/?ref_=ttfc_fc_cl_t11" target="_blank">Kevin Rankin</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="blackLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return blackBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab5">
+                            <h1>Luther</h1>
+                            <div id="luciferImageAndTable">
+                                <img class="seriesImage" src="luther.jpg" alt="Lucifer">
+                                <table class="redBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2010</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Crime, Drama</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>John Luther is a fantastic detective but has had quite a long term history of mental illness that have made him violent and has resulted him having his wife divorce him as well as
+                                being forced to take sick leave from work. He is recalled to the Metropolitan Police and has been tasked with solving some of the most gruesome murders committed by some of the most
+                                messed up of people. He is partnered up with Sergeant Justin Ridley but Luther is a man who prefers to work alone and likes to things his own way.</p>
+                                <p>Luther during his past has upset quite a few of his colleagues and there are a number of people within his department or close to the department that would love to see the back of him
+                                once and for all which does result in John being framed for murder twice. Will he be able to prove his innocence but with plenty of other really tough situations to deal with will he be
+                                able to hold his emotions together.</p>
+                            </div>
+                            <hr class="redLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="redBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DCI John Luther</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0252961/?ref_=tt_cl_t1" target="_blank">Idris Elba</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DSU Martin Schenk</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0189720/?ref_=tt_cl_t2" target="_blank">Dermot Crowley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Benny Silver</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0806968/?ref_=tt_cl_t3" target="_blank">Michael Smiley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DS Justin Ridley</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm1546206/?ref_=tt_cl_t4" target="_blank">Warren Brown</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Alice Morgan</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm2235721/?ref_=tt_cl_t5" target="_blank">Ruth Wilson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mark North</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0001524/?ref_=tt_cl_t6" target="_blank">Paul McGann</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DCI Erin Grey</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0025458/?ref_=ttfc_fc_cl_t7" target="_blank">Nikki Amuka-Bird</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DCI Ian Reed</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0533599/?ref_=ttfc_fc_cl_t8" target="_blank">Steven Macintoch</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DSU Rose Teller</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0716293/?ref_=ttfc_fc_cl_t9" target="_blank">Saskia Reeves</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Zoe Luther</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0890055/?ref_=ttfc_fc_cl_t10" target="_blank">Indria Varma</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mary Day</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0347149/?ref_=ttfc_fc_cl_t11" target="_blank">Sienna Guillory</a></td>
+                                    </tr>
+                                     <tr>
+                                        <td class="t1cols">DSU George Stark</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0641244/?ref_=ttfc_fc_cl_t12" target="_blank">David O'Hara</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jenny Jones</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm2929682/?ref_=ttfc_fc_cl_t13" target="_blank">Aimee-Ffion Edwards</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Caroline Jones</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm1663573/?ref_=ttfc_fc_cl_t14" target="_blank">Kierston Wareing</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Henry Madson</td>
+                                        <td class="t1cols" id="playedBy"><a class="redLink" href="https://www.imdb.com/name/nm0766736/?ref_=ttfc_fc_cl_t15" target="_blank">Anton Saunders</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="redLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return redBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab6">
+                            <h1>No Offence</h1>
+                            <div id="noOffenceImageAndTable">
+                                <img class="seriesImage" src="noOffence.jpg" alt="No Offence">
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Crime, Drama, Comedy</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>The tough day to day lives for a police team in Manchester. Not only do they find themselves dealing with long term crimes such as twisted serial killers praying on a certain victim
+                                type, may also have help in committing these crimes and not only that but the killer may actually be a lot closer to the police than they actually realise. They also find themselves
+                                stopping riots and preventing rival Manchester gangs from going to war.</p>
+                                <p>But of course amongst all that they find themselves having to deal with day to day crimes, some of them a lot more emotionally straining than others. Also having to find a way to do
+                                this with all the restrictions put in place by their bosses.</p>
+                            </div>
+                            <hr class="whiteLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DI Viv Deering</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0768936/?ref_=tt_cl_t4" target="_blank">Joanna Scanlan</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DC Dinah Kowalska</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0144187/?ref_=tt_cl_t5" target="_blank">Elaine Cassidy</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DS Joy Friers</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3789989/?ref_=tt_cl_t8" target="_blank">Alexandra Roach</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">PC Spike Tanner</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0578123/?ref_=tt_cl_t6" target="_blank">Will Mellor</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Miller</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0728795/?ref_=tt_cl_t1" target="_blank">Paul Ritter</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">PC Tegan Thompson</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3191941/?ref_=tt_cl_t3" target="_blank">Saira Choudry</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">PC Stuart O'Connell</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm6682365/?ref_=tt_cl_t2" target="_blank">Tom Varey</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">PC Taz Ahmed</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink"href="https://www.imdb.com/name/nm3351693/?ref_=tt_cl_t9" target="_blank">Neet Mohan</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">PC Jonah Mitchell</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink"href="https://www.imdb.com/name/nm6964385/?ref_=tt_cl_t7" target="_blank">Ste Johnston</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Cathy Calvert</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2742875/?ref_=tt_cl_t10" target="_blank">Charlie May-Clark</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Gavin</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2736817/?ref_=tt_cl_t11" target="_blank">Conor MacNeil</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Dr Flynn</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2359658/?ref_=ttfc_fc_cl_t12" target="_blank">Kate O'Flynn</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DSU MacLaren</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0758760/?ref_=ttfc_fc_cl_t14" target="_blank">Colin Salmon</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Laurie Gaskell</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0178335/?ref_=ttfc_fc_cl_t18" target="_blank">Risteard Cooper</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Nora Attah</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0043931/?ref_=ttfc_fc_cl_t19" target="_blank">Rakie Ayola</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mani Attah</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3938513/?ref_=ttfc_fc_cl_t20" target="_blank">Zachary Momoh</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">DCI Christine Lickberg</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1683850/?ref_=ttfc_fc_cl_t21" target="_blank">Sarah Solemani</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Alpha</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm6654163/?ref_=ttfc_fc_cl_t22" target="_blank">Ben Tavassoli</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Magda Kowalska</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1428164/?ref_=ttfc_fc_cl_t25" target="_blank">Hanna Bieniuszewicz</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tessa Kowalska</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm7197904/?ref_=ttfc_fc_cl_t24" target="_blank">Mia Blakeley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Donna Calvert</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm7197902/?ref_=ttfc_fc_cl_t28" target="_blank">Claudia Adshead</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ruth Cheetham</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2836709/?ref_=ttfc_fc_cl_t26" target="_blank">Siobhan McSweeney</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Kim Garvey</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm7341833/?ref_=ttfc_fc_cl_t30" target="_blank">Zak Sutcliffe</a></td>
+                                    </tr>
+                                     <tr>
+                                        <td class="t1cols">Patrick Llewellyn</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0567945/?ref_=ttfc_fc_cl_t35" target="_blank">Peter McDonald</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Aidan McGee</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1165846/?ref_=ttfc_fc_cl_t26" target="_blank">Jody Latham</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="whiteLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return whiteBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab7">
+                                <h1>Rush Hour</h1>
+                                <div id="rushHourImageAndTable">
+                                    <img class="seriesImage" src="rushHour.jpg" alt="Rush Hour">
+                                    <table class="blackBorder">
+                                        <tr>
+                                            <td class="t1cols">First aired</td>
+                                            <td class="t1cols">2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of series</td>
+                                            <td class="t1cols">1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of episodes</td>
+                                            <td class="t1cols">13</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Certificate</td>
+                                            <td class="t1cols">15</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Genre</td>
+                                            <td class="t1cols">Crime, Comedy, Action</td>
+                                        </tr>   
+                                    </table>
+                                </div>
+                                <div class="synopsis">
+                                    <p>A spin off series to the successful blockbuster trilogy that starred Jackie Chan and Chris Tucker. Detective James Carter is a cop who likes to work alone but his way of solving 
+                                       crimes often raises the eyebrows of his bosses. Carter is then forced to work with Detective Lee who has come over from China in search of his sister who has been kidnapped by a
+                                       Chinese gang. To Lee's horror he finds out that his sister has now joined up with this gang that are causing all kinds of problems all over Los Angeles.</p>
+                                    <p>Lee ends up joining forces with Carter despite the fact the two of them have very different attitudes to going about their work and this does nearly lead to Lee having Carter's
+                                       cousin Gerald arrested, someone Carter has for long time managed to stop the LAPD arresting due to his drug use. Gerald does however play his part and ends up working as an
+                                       informant for both Lee and Carter. </p>
+                                </div>
+                                <hr class="blackLine">
+                                <div id="cast">
+                                    <h2>Main Cast</h2>
+                                    <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                    <table class="blackBorder">
+                                        <tr>
+                                            <th class="t1cols">Character</th>
+                                            <th class="t1cols">Played by</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Detective James Carter</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2058713/?ref_=tt_cl_t1" target="_blank">Justin Hires</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Detective Lee</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1463426/?ref_=tt_cl_t2" target="_blank">Jon Foo</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Didi Diaz</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink"href="https://www.imdb.com/name/nm0305083/?ref_=tt_cl_t3" target="_blank">Aimee Garcia</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Gerald</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink"href="https://www.imdb.com/name/nm1191866/?ref_=tt_cl_t4" target="_blank">Page Kennedy</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Captain Lindsay Cole</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0005176/?ref_=tt_cl_t5" target="_blank">Wendie Malick</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Donovan</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0289105/?ref_=tt_cl_t6" target="_blank">Kirk Fox</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Kim Lee</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2565039/?ref_=ttfc_fc_cl_t7" target="_blank">Jessika Van</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br>
+                                <hr class="blackLine">
+                                <br>
+                                <div class="footer">
+                                    <a class="return blackBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                                </div>
+                                <br>
+                        </div>
+                        <div id="tab8">
+                            <h1>Shameless</h1>
+                            <img class="seriesImage" src="shameless.jpg" alt="Shameless">
+                            <table class="blackBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2004</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">11</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">139</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">18</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Drama, Comedy</td>
+                                    </tr>   
+                            </table>
+                            <div class="synopsis">
+                                <p>The lives of a few families living in a council estate area in Manchester. Starting with the Gallagher's, the dad Frank is an acloholic waster who spends most of his time going awol, 
+                                getting drunk and waking up in random places. He has spent next to no time in helping raise his six children, grows to 10 by the end of the entire series. His eldest daughter Fiona has 
+                                the task of raising the kids as their mum keeps on walking out on them. She comes back every now and then, has another baby with Frank before disappearing again and without the child.</p>
+                                <p>The other children do get more and more independant as time goes on especially as Fiona moves away. Frank temporarily has another wife in Sheila who he cheats on with her own daughter who 
+                                was going out with his eldest son Lip. After realising what Frank is like Sheila leaves him and takes the children with her. Lip does end up getting his next girlfriend Mandy Maguire 
+                                pregnant, a very dangerous move as she comes from a very dangerous family led by the feared Paddy Maguire. The Maguire's do become more apart of the show as the series continues and even 
+                                welcome back their eldest son Jamie who was serving 10 years in prison for murder. But does he come back entirely the same. Paddy and his wife Mimi do eventually get divorced after Paddy's 
+                                past finally catches up with him only for Mimi to then marry a teenager after he accidentally gets her pregnant to the dismay of all her grown up children.</p>
+                                <p>The Maguire's next son Micky as well as Ian one of the Gallagher's both realise they are gay but are unable to come out to their families as they fear they will not be accepted. However 
+                                some people do find out but promise not to tell anyone. Ian ends up going out with his boss Kash who is actually married to a woman Yvonne and they have two kids in Menna and Chesney, Kash and 
+                                Yvonne run a corner shop which Chesney takes over in the future. The running of the shop comes into question when Yvonne finds out her husband's secret and throws him out and then moves abroad 
+                                with her partner Stan who is a police officer.</p>
+                                <p>It is a frustrating time for the police especially the ambitious Carrie who cannot seem to find any evidence to put the Maguire's or any of the Gallagher's away as the families are clever 
+                                like that. Then her partner finds out that Carrie has been using her dead sister's profile to become a police officer.</p>
+                            </div>
+                            <hr class="blackLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="blackBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Frank Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0861915/?ref_=tt_cl_t1" target="_blank">David Threlfall</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Karen Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1519450/?ref_=tt_cl_t2" target="_blank">Rebecca Atkinson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Lilian Tyler</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1063475/?ref_=tt_cl_t3" target="_blank">Alice Barry</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Shane Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0263099/?ref_=tt_cl_t4" target="_blank">Nicky Evans</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mimi Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0540516/?ref_=tt_cl_t5" target="_blank">Tina Malone</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jamie Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1464879/?ref_=tt_cl_t7" target="_blank">Aaron McCusker</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Kelly Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0138329/?ref_=tt_cl_t8" target="_blank">Sally Carman</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Chesney Karib</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2062767/?ref_=tt_cl_t9" target="_blank">Qasim Akhtar</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Micky Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0341647/?ref_=tt_cl_t10" target="_blank">Ciaren Grithiths</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ian Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1542551/?ref_=tt_cl_t11" target="_blank">Gerard Kearns</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Debbie Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0752800/?ref_=tt_cl_t12" target="_blank">Rebecca Ryan</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Liam Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2106610/?ref_=ttfc_fc_cl_t13" target="_blank">Johnny Bennett</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Avril Powell</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0117464/?ref_=ttfc_fc_cl_t14" target="_blank">Karen Bryson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Paddy Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0318409/?ref_=ttfc_fc_cl_t15" target="_blank">Sean Gilder</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mandy Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1551931/?ref_=ttfc_fc_cl_t16" target="_blank">Samantha Sidall</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Yvonne Karib</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0391201/?ref_=ttfc_fc_cl_t17" target="_blank">Kelli Hollis</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Patty Croker</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0510370/?ref_=ttfc_fc_cl_t18" target="_blank">Valerie Lilley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Aidan Croker</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm4263462/?ref_=ttfc_fc_cl_t19" target="_blank">Robbie Conway</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Stan Waterman</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0232780/?ref_=ttfc_fc_cl_t20" target="_blank">Warren Donnelly</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Marty Fisher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0212675/?ref_=ttfc_fc_cl_t21" target="_blank">Jack Deam</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Letitia Powell</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm4259408/?ref_=ttfc_fc_cl_t22" target="_blank">Kira Martin</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jackson Powell</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1544291/?ref_=ttfc_fc_cl_t23" target="_blank">Emmanuel Ighodaro</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Billy Tutton</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2317103/?ref_=ttfc_fc_cl_t24" target="_blank">Michael Taylor</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Monica Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0032536/?ref_=ttfc_fc_cl_t25" target="_blank">Annabelle Apsion</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Lip Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1165846/?ref_=ttfc_fc_cl_t26" target="_blank">Jody Latham</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Norma Starkey</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1205340/?ref_=ttfc_fc_cl_t27" target="_blank">Dystin Johnson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Maxine Donnelly</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2642137/?ref_=ttfc_fc_cl_t28" target="_blank">Joanna Higson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Joe Pritchard</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2717849/?ref_=ttfc_fc_cl_t29" target="_blank">Ben Batt</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Kev Ball</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0446319/?ref_=ttfc_fc_cl_t30" target="_blank">Dean Lennox Kelly</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Sheila Jackson</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0642239/?ref_=ttfc_fc_cl_t31" target="_blank">Maggie O'Neill</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Carol Fisher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0946789/?ref_=ttfc_fc_cl_t32" target="_blank">Marjorie Yates</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jez</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1538770/?ref_=ttfc_fc_cl_t33" target="_blank">Lindsey Dawson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Veronica Fisher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0668845/?ref_=ttfc_fc_cl_t34" target="_blank">Maxine Peake</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tom O'Leary</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0499323/?ref_=ttfc_fc_cl_t35" target="_blank">Michael Legge</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Pauline Croker</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0572965/?ref_=ttfc_fc_cl_t36" target="_blank">Pauline McLynn</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Katie Maguire</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm3612860/?ref_=ttfc_fc_cl_t38" target="_blank">Lola Yoxall</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Carrie Rogers</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0752406/?ref_=ttfc_fc_cl_t40" target="_blank">Amanda Ryan</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Gloria Meak</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0050337/?ref_=ttfc_fc_cl_t41" target="_blank">Angeline Ball</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Fiona Gallagher</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0240359/?ref_=ttfc_fc_cl_t42" target="_blank">Anne-Marie Duff</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Kash Karib</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0084353/?ref_=ttfc_fc_cl_t43" target="_blank">Chris Bisson</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Meena Karib</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1512122/?ref_=ttfc_fc_cl_t44" target="_blank">Sarah Byrne</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ruby Hepburn</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1116124/?ref_=ttfc_fc_cl_t45" target="_blank">Kari Corbett</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Dominic Meak</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0520510/?ref_=ttfc_fc_cl_t46" target="_blank">Stephen Lord</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tony</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1340424/?ref_=ttfc_fc_cl_t47" target="_blank">Anthony Flanagan</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Steve McBride</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0564215/?ref_=ttfc_fc_cl_t49" target="_blank">James McAvoy</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Sue Garland</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0443937/?ref_=ttfc_fc_cl_t51" target="_blank">Gillian Kearney</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Tam Blanco</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm5570591/?ref_=ttfc_fc_cl_t52" target="_blank">Rhys Cadman</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Esther Blanco</td>
+                                        <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2981969/?ref_=ttfc_fc_cl_t53" target="_blank">Isy Suttie</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="blackLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return blackBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                        <div id="tab9">
+                            <h1>Suits</h1>
+                            <div id ="suitsImageAndTable">
+                                <img class="seriesImage" src="suits.jpg" alt="Suits">
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <td class="t1cols">First aired</td>
+                                        <td class="t1cols">2011</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of series</td>
+                                        <td class="t1cols">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Number of episodes</td>
+                                        <td class="t1cols">144</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Certificate</td>
+                                        <td class="t1cols">15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Genre</td>
+                                        <td class="t1cols">Drama, Thriller, Comedy</td>
+                                    </tr>   
+                                </table>
+                            </div>
+                            <div class="synopsis">
+                                <p>When an expelled Harvard student with a razor sharp mind and a photographic memory is trying to escape the police having been caught trying
+                                to sell a suitcase full of weed. He accidentally stumbles into an interview for a job as a lawyer at a company that will only hire people that
+                                have successfully graduated from Harvard. Despite all this he ends up impresses a top lawyer with his intelligence and ends up being hired.</p>
+                                <p>Should the secret get out, both could be liable for conspiracy to commit fraud, it is up to Mike, Harvey and his secretary Donna to keep the
+                                secret safe from the other partners and associates. This proves easier said than done as not only do some of the other partners and associates
+                                find out but how will they choose to handle the news and should they decide to keep Mike on knowing the potential he has, how can they all keep 
+                                this a secret when up against very tough clients and competition. People leaving the firm knowing the secret and also disgruntled former parters 
+                                that will stop at nothing to get their feet back in the door.</p>
+                            </div>
+                            <hr class="whiteLine">
+                            <div id="cast">
+                                <h2>Main Cast</h2>
+                                <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                <table class="whiteBorder">
+                                    <tr>
+                                        <th class="t1cols">Character</th>
+                                        <th class="t1cols">Played by</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Harvey Specter</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0532683/?ref_=tt_cl_t1" target="_blank">Gabriel Macht</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Louis Litt</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0389069/?ref_=tt_cl_t2" target="_blank">Rick Hoffman</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Donna Poulsen</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1423048/?ref_=ttfc_fc_cl_t3" target="_blank">Sarah Rafferty</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Mike Ross</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1140666/?ref_=ttfc_fc_cl_t4" target="_blank">Patrick J Adams</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Rachel Zane</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1620783/?ref_=ttfc_fc_cl_t5" target="_blank">Meghan Markle</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jessica Pearson</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0868659/?ref_=ttfc_fc_cl_t6" target="_blank">Gina Torres</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Katrina Bennett</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0776040/?ref_=ttfc_fc_cl_t7" target="_blank">Amanda Schull</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Robert Zane</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0682495/?ref_=ttfc_fc_cl_t8" target="_blank">Wendell Pierce</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Sheila Sazs</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0006713/?ref_=ttfc_fc_cl_t10" target="_blank">Rachel Harris</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Jeff Malone</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0940851/?ref_=ttfc_fc_cl_t13" target="_blank">D.B Woodside</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Sean Cahill</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0568180/?ref_=ttfc_fc_cl_t15" target="_blank">Neil McDounagh</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Daniel Hardmann</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0182345/?ref_=ttfc_fc_cl_t16" target="_blank">David Constabile</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Dana Scott</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0817844/?ref_=ttfc_fc_cl_t17" target="_blank">Abigail Spencer</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Trevor</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2906174/?ref_=ttfc_fc_cl_t23" target="_blank">Tom Lipinski</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Samantha Wheeler</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0001337/?ref_=ttfc_fc_cl_t25" target="_blank">Katherine Heigl</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Charles Forstman</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0000616/?ref_=ttfc_fc_cl_t34" target="_blank">Eric Roberts</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Cameron Dennis</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0170550/?ref_=ttfc_fc_cl_t26" target="_blank">Gary Cole</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Ava Hessington</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0265610/?ref_=ttfc_fc_cl_t33" target="_blank">Michelle Fairley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Edward Darby</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0384152/?ref_=ttfc_fc_cl_t40" target="_blank">Conleth Hill</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1cols">Stephen Huntley</td>
+                                        <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0066586/?ref_=ttfc_fc_cl_t37" target="_blank">Max Beesley</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <hr class="whiteLine">
+                            <br>
+                            <div class="footer">
+                                <a class="return whiteBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                            </div>
+                            <br>
+                        </div>
+                            <div id="tab10">
+                                <h1>The Fall</h1>
+                                <div id="theFallImageAndTable">
+                                    <img class="seriesImage" src="theFall.jpg" alt="The Fall">
+                                    <table class="whiteBorder">
+                                        <tr>
+                                            <td class="t1cols">First aired</td>
+                                            <td class="t1cols">2012</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of series</td>
+                                            <td class="t1cols">3</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of episodes</td>
+                                            <td class="t1cols">17</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Certificate</td>
+                                            <td class="t1cols">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Genre</td>
+                                            <td class="t1cols">Crime, Drama, Thriller</td>
+                                        </tr>   
+                                    </table>
+                                </div>
+                                <div class="synopsis">
+                                    <p>Done through the eyes of the killer and the super intendant trying to find out who the killer is and stop him, Paul Spector is a bereavement councillor and married with two kids but 
+                                    is strangling to death women of a certain description and being clever about it so that he does not leave any evidence behind pinning him to the crime. Detective Super Intendant Gibson
+                                    has been bought over to Belfast from London and has to work against the incompetencies in the police to find the killer and stop him before he kills anyone else.</p>
+                                </div>
+                                <hr class="whiteLine">
+                                <div id="cast">
+                                    <h2>Main Cast</h2>
+                                    <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                    <table class="whiteBorder">
+                                        <tr>
+                                            <th class="t1cols">Character</th>
+                                            <th class="t1cols">Played by</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Stella Gibson</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0000096/?ref_=tt_cl_t1" target="_blank">Gillian Anderson</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Paul Spector</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1946193/?ref_=tt_cl_t2" target="_blank">Jamie Dornan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Jim Burns</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0001487/?ref_=tt_cl_t3" target="_blank">John Lynch</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Katie Benedetto</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm4957233/?ref_=tt_cl_t4" target="_blank">Aisling Franciosi</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Danielle Ferrington</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3287053/?ref_=tt_cl_t5" target="_blank">Niamh McGrady</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Sally Ann Spector</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2391026/?ref_=tt_cl_t6" target="_blank">Bronagh Waugh</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Olivia Spector</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm5664508/?ref_=tt_cl_t7" target="_blank">Sarah Beattie</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Matt Eastwood</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0334324/?ref_=tt_cl_t8" target="_blank">Stuart Graham</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Gail McNally</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0846499/?ref_=tt_cl_t9" target="_blank">Bronagh Taggart</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Rose Stagg</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3442484/?ref_=tt_cl_t10" target="_blank">Valene Kane</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Liam Spector</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm5662567/?ref_=tt_cl_t11" target="_blank">David Beattie</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Glen Martin</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1631384/?ref_=tt_cl_t12" target="_blank">Emmett J Scanlan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Rick Turner</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0166252/?ref_=tt_cl_t13" target="_blank">Richard Clements</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Christine Larkin</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm5251791/?ref_=tt_cl_t14" target="_blank">Claire Rafferty</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Tom Anderson</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2959880/?ref_=tt_cl_t15" target="_blank">Colin Morgan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Hagstrom</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2851049/?ref_=tt_cl_t16" target="_blank">Kelly Gough</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Reed Smith</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink"href="https://www.imdb.com/name/nm0659544/?ref_=tt_cl_t17" target="_blank">Archie Panjabi</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Annie Brawley</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0166252/?ref_=tt_cl_t13" target="_blank">Karen Hassan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Tom Stagg</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink"href="https://www.imdb.com/name/nm1306019/?ref_=ttfc_fc_cl_t23" target="_blank">Jonjo O'Neill</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Ned Callan</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1648649/?ref_=ttfc_fc_cl_t24" target="_blank">Colin Morgan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">James Tyler</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0589665/?ref_=ttfc_fc_cl_t25" target="_blank">Brian Milligan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Bill Nash</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0180965/?ref_=ttfc_fc_cl_t26" target="_blank">Chris Corrigan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">James Olson</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0670222/?ref_=ttfc_fc_cl_t29" target="_blank">Ben Peel</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Morgan Monroe</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0568400/?ref_=ttfc_fc_cl_t30" target="_blank">Ian McElhinney</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Liz Tyler</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2625905/?ref_=ttfc_fc_cl_t32" target="_blank">Colin Morgan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Marion Kay</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1597101/?ref_=ttfc_fc_cl_t34" target="_blank">Lisa Hogg</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Aisling Bea</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm3201406/?ref_=ttfc_fc_cl_t39" target="_blank">Nurse Sheridan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Ian Kay</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm0389698/?ref_=ttfc_fc_cl_t44" target="_blank">B.J. Hogg</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Sarah Kay</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm1967827/?ref_=ttfc_fc_cl_t45" target="_blank">Laura Donnelly</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Aaron Monroe</td>
+                                            <td class="t1cols" id="playedBy"><a class="whiteLink" href="https://www.imdb.com/name/nm2051261/?ref_=ttfc_fc_cl_t48" target="_blank">Eugene O'Hare</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br>
+                                <hr class="whiteLine">
+                                <br>
+                                <div class="footer">
+                                    <a class="return whiteBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                                </div>
+                                <br>
+                            </div>
+                            <div id="tab11">
+                                <h1>This is Us</h1>
+                                <div id="thisIsUsImageAndTable">
+                                    <img class="seriesImage" src="thisIsUs.jpg" alt="This is Us">
+                                    <table class="blackBorder">
+                                        <tr>
+                                            <td class="t1cols">First aired</td>
+                                            <td class="t1cols">2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of series</td>
+                                            <td class="t1cols">1</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Number of episodes</td>
+                                            <td class="t1cols">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Certificate</td>
+                                            <td class="t1cols">12</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Genre</td>
+                                            <td class="t1cols">Drama</td>
+                                        </tr>   
+                                    </table>
+                                </div>
+                                <div class="synopsis">
+                                    <p>The story of a family but is set in two times. The earlier time when Jack and Rebecca Pearson become parents to triplets but the later time when all the kids have grown up, one
+                                        now with a family and the others still figuring out what to do.</p>
+                                    <p>When giving birth to the triplets there was a complication and sadly one of the babies died. However at the hospital Jack finds out from a fireman who has dropped off an abandoned
+                                       baby he found at his fire station. With no known family and feeling the loss of one of the babies both Jack and Rebecca agree to adopt Randall and raise him as one of there own. Despite
+                                       being raised as a Pearson Randall very early on finds that he is quite different to the rest of the family and sometimes feels he has to over try to impress in an attempt to fit in.</p>
+                                    <p>In the future Randall does however track down his biological father William, is a bit reluctant to talk to him and forgive him but does allow William to meet his wife and children. Sadly
+                                       for Randall he finds out soon after his father has terminal cancer and does not have much time to reconnect with him.</p>
+                                    <p>Kevin the other brother is trying to make it as an actor as is playing a role known as The Manny. He is a celebrity but does lose his way after a public outburst causing him to lose his 
+                                       job, he then moves to New York and tries to make it as a stage actor. Both him and Randall do also try to repair their relationship as they have been at loggerheads for years.</p>
+                                    <p>Kate the sister is trying to lose weight, she does not get on that well with her mum or new step dad, she was however quite close to her father Jack who is now dead. Kate also has his aches
+                                       on her fireplace. She does however have a new man in her life who is also trying to lose weight as well.</p>
+                                    <p>Rebecca following the death of Jack is actually now married to his best friend Miguel, the exact cause of Jack's death is still unknown but from what we do know, him and Rebecca were taking
+                                       a trial seperation after Jack got jealous of Rebecca following a music career, he also believed one of her co stars was trying to steal her.</p>
+                                </div>
+                                <hr class="blackLine">
+                                <div id="cast">
+                                    <h2>Main Cast</h2>
+                                    <p id="linkInfo">By selecting on each name in played by, you will be redirected to their IMDB page if you want to find out more about them</p>
+                                    <table class="blackBorder">
+                                        <tr>
+                                            <th class="t1cols">Character</th>
+                                            <th class="t1cols">Played by</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Jack Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0893257/?ref_=tt_cl_t1" target="_blank">Milo Ventimiglia</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Rebecca Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0601553/?ref_=tt_cl_t2" target="_blank">Mandy Moore</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Randall Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink"href="https://www.imdb.com/name/nm1250791/?ref_=tt_cl_t3" target="_blank">Sterling K Brown</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Kate Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink"href="https://www.imdb.com/name/nm1978680/?ref_=tt_cl_t4" target="_blank">Chrissy Metz</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Kevin Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1261997/?ref_=tt_cl_t5" target="_blank">Justin Hartley</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Beth Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm1635244/?ref_=tt_cl_t6" target="_blank">Susan Kelechi Watson</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Toby Damon</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm2884388/?ref_=tt_cl_t7" target="_blank">Chris Sullivan</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">William Hill</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0429171/?ref_=tt_cl_t8" target="_blank">Ron Cephas Jones</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Tess Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm8082633/?ref_=tt_cl_t9" target="_blank">Eris Baker</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Annie Pearson</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm7968936/?ref_=tt_cl_t10" target="_blank">Faithe Herman</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1cols">Miguel Rivas</td>
+                                            <td class="t1cols" id="playedBy"><a class="blackLink" href="https://www.imdb.com/name/nm0005030/?ref_=tt_cl_t11" target="_blank">John Huertas</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <br>
+                                <hr class="blackLine">
+                                <br>
+                                <div class="footer">
+                                    <a class="return blackBorderedReturn" href="#whereUsersReturnToo">Return to top</a>
+                                </div>
+                                <br>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="topNav.js"></script>
+    </body>
+</html>

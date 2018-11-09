@@ -1,0 +1,64 @@
+@media only screen and (orientation: portrait) and (max-width: 1080px) {
+#warningImage {
+position: relative;
+left: 17%;
+width: 66%;
+}
+#tabs {
+top: 20%;
+}
+}
+@media only screen and (orientation: portrait) and (max-width: 1050px) {
+#tabs {
+    font-size: 70%;
+}
+#evenNumberedSeriesHeaders {
+    left: 65.8%;
+}
+}
+@media only screen and (orientation: portrait) and (max-width: 900px) {
+#tabs {
+top: 25%;
+}
+#oddNumberedSeriesHeaders {
+left: 25.2%;
+}
+#oddNumberedSeriesHeadersLastOne {
+    left: 25.2%;
+}
+#evenNumberedSeriesHeaders {
+left: 64.8%;
+}
+#linkInfo {
+    left: 5.5%;
+    width: 89%;
+    text-align: center;
+}
+}
+@media only screen and (orientation: portrait) and (max-width: 800px) {
+#tabs {
+top: 20%;
+} 
+}
+@media only screen and (orientation: portrait) and (max-width: 768px) {
+#oddNumberedSeriesHeaders {
+left: 24.7%;
+}
+#oddNumberedSeriesHeadersLastOne {
+left: 24.4%;
+}
+#evenNumberedSeriesHeaders {
+left: 62.8%;
+}
+}
+@media only screen and (orientation: portrait) and (max-height: 1024px) {
+#tabs {
+top: 25%;
+}
+}
+@media only screen and (orientation: portrait) and (max-width: 600px) {
+#tabs {
+top: 30%;
+font-size: 50%;
+} 
+}

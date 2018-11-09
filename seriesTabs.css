@@ -1,0 +1,159 @@
+#tabs {
+    position: absolute;
+    top: 45%;
+    width: 80%;
+    left: 10%;
+    background: black;
+    text-align: justify;
+}
+.ui-widget-content { 
+    color: black; 
+}
+table, th, tr, td {
+    position: relative;
+    border-collapse: collapse;
+    text-align: center;
+    left: 14%;
+    width: 56.3%;
+}
+.t1cols {
+    width: 50%;
+}
+
+.synopsis {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.trailers {
+    position: relative;
+}
+#linkInfo {
+    position: relative;
+    left: 11%;
+    width: 78%;
+    padding-bottom: 2%;
+}
+#tab1 {
+    background: white;
+}
+#tab2 {
+    background: green;
+    color: white;
+}
+#tab3 {
+    background: purple;
+    color: white;
+}
+#tab4 {
+    background: orangered;
+    color: black;
+}
+#tab5 {
+    background: black;
+    color: red;
+}
+#tab6 {
+    background: darkblue;
+    color: white;
+}
+#tab7 {
+    background: skyblue;
+    color: black;
+}
+#tab8 {
+    background: skyblue;
+    color: black;
+}
+#tab9 {
+    background: red;
+    color: white;
+}
+#tab10 {
+    background: black;
+    color: white;
+}
+#tab11 {
+    background: yellow;
+    color: black;
+}
+.seriesImage {
+    position: relative;
+    left: 22%;
+    width: 56%;
+    padding-bottom: 3%;
+}
+table th, tr, td {
+padding: 3%;
+margin-bottom: 3%;
+}
+.whiteBorder th {
+border: 3px solid white;  
+}
+.whiteBorder tr   {
+border: 3px solid white;  
+}
+.whiteBorder td {
+border: 3px solid white; 
+}
+.blackBorder th {
+border: 3px solid black;  
+}
+.blackBorder tr   {
+border: 3px solid black;  
+}
+.blackBorder td {
+border: 3px solid black; 
+}
+.redBorder th {
+border: 3px solid red;  
+}
+.redBorder tr   {
+border: 3px solid red;  
+}
+.redBorder td {
+border: 3px solid red; 
+}
+.whiteLine {
+    border: 1px solid white;
+}
+.blackLine {
+    border: 1px solid black;
+}
+.redLine {
+    border: 1px solid red;
+}
+a {
+    text-decoration: none;
+}
+a.whiteLink {
+    color: white;
+}
+a.blackLink {
+    color: black;
+}
+a.redLink {
+    color: red;
+}
+.return {
+    position: relative;
+    left: 21.5%;
+    padding: 1%;
+}
+a.blackBorderedReturn {
+border: 1px solid black;
+color: black;
+}
+a.whiteBorderedReturn {
+border: 1px solid white;   
+color: white;
+}
+a.redBorderedReturn {
+border: 1px solid red;   
+color: red;
+}
+#shamelessVideoInfo {
+    text-align: center;
+}
